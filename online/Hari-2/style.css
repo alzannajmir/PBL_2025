@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #2b5fab;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+td.label {
+    font-weight: bold;
+    background-color: #f0f4ff;
+    width: 40%;
+}
+
+td.value {
+    color: #333;
+}

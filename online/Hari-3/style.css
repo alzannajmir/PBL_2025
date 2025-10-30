@@ -16,9 +16,9 @@ body {
 }
 
 /* Header biru */
-.header {
-  background-color: #007bff;
-  color: white;
+/* .header {
+  background-color: #ffff;
+  color: #007bff;
   text-align: center;
   padding: 25px 10px;
 }
@@ -31,13 +31,13 @@ body {
 .header p {
   margin-top: 8px;
   font-size: 14px;
-}
+} */
 
 /* Navbar */
 .navbar {
-  padding: 20px;
+  padding: 5px;
   background-color: #007bff;
-  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .navbar ul {
   list-style: none; /* hilangkan bullet */
@@ -70,6 +70,7 @@ body {
 /* Bagian profil singkat */
 .profile-section {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid #ddd;
@@ -80,13 +81,13 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px;
+  margin: 0 auto;
   border: 3px solid #007bff;
 }
 
 .profile-info h2 {
   margin-top: 0;
-  color: #007bff;
+  color: black;
 }
 
 .profile-info p {

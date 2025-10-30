@@ -33,6 +33,40 @@ body {
   font-size: 14px;
 }
 
+/* Navbar */
+.navbar {
+  padding: 20px;
+  background-color: #007bff;
+  margin-top: 5px;
+}
+.navbar ul {
+  list-style: none; /* hilangkan bullet */
+  margin: 0;
+  padding: 0;
+  display: flex; /* sejajarkan horizontal */
+  justify-content: center;
+}
+/* Item menu */
+.navbar ul li {
+  margin: 0 15px;
+}
+
+/* Link */
+.navbar ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+/* Efek hover */
+.navbar ul li a:hover {
+  background-color: #0056b3;
+}
+
 /* Bagian profil singkat */
 .profile-section {
   display: flex;

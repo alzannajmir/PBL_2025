@@ -7,37 +7,41 @@ body {
 
 /* Navbar Section */
 .navbar {
-  background-color: orangered;
-  color: white;
+  background-color: #ff6600;
   display: flex;
   align-items: center;
+  position: fixed;
 }
 .navbar .logo {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .navbar .logo img {
   width: 40px;
   height: 40px;
+  padding: 15px;
+  margin-left: 40px;
 }
 
-.navbar h1 {
-  font-size: 20px;
+.navbar h4 {
+  font-size: 15px;
+  color: white;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  font-size: large;
+  font-size: 15px;
   gap: 75px;
+  margin-left: 250px;
 }
 
 .navbar a {
+  padding: 5px;
   text-decoration: none;
-  color: white;
-  font-weight: 600;
+  color: #ffff;
+  font-weight: 650;
   transition: color 0.3s;
 }
 
@@ -47,45 +51,59 @@ body {
 
 /* Hero Section */
 .hero {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffead2;
-  padding: 60px 10%;
+  padding: 250px 10%;
   flex-wrap: wrap;
+  background: url("background.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.15);
 }
 
 .hero-text h2 {
   font-size: 40px;
   margin: 0;
-  color: #d9480f;
+  color: orange;
 }
 
 .hero-text h2 span {
-  color: #ff6600;
+  color: #ff4500;
 }
 
 .hero-text p {
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 10px;
+  color: white;
 }
 
-.hero-img img {
-  width: 300px;
-  border-radius: 12px;
+.btn {
+  background-color: #ff4500;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background 0.3s ease;
 }
 
 /* Menu Section */
 .menu-section {
+  margin-top: 10px;
   text-align: center;
-  padding: 60px 10%;
-  background-color: #fff;
+  padding: 60px;
+  background-color: #ff66008c;
+  border-radius: 12px;
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.15);
 }
 
 .menu-section h2 {
-  color: #d9480f;
-  margin-bottom: 40px;
+  color: #ff6600;
   font-size: 28px;
+}
+.menu-section h4 {
+  color: #ffff;
+  font-size: 15px;
 }
 
 .menu-list {
@@ -123,7 +141,7 @@ body {
 /* Kontak Section */
 .kontak-kami {
   text-align: center;
-  background-color: orangered;
+  background-color: #ff66008c;
   color: white;
 }
 .kontak-kami h2 {

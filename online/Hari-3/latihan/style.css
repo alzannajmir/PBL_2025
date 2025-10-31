@@ -1,0 +1,134 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: orangered;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar .logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar h1 {
+  font-size: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  font-size: large;
+  gap: 75px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffd6a5;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffead2;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  margin: 0;
+  color: #d9480f;
+}
+
+.hero-text h2 span {
+  color: #ff6600;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+/* Menu Section */
+.menu-section {
+  text-align: center;
+  padding: 60px 10%;
+  background-color: #fff;
+}
+
+.menu-section h2 {
+  color: #d9480f;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.menu-item {
+  background-color: #fff7ef;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  color: #d9480f;
+  margin: 10px 0 5px;
+}
+
+/* Tentang Section */
+.tentang-kami {
+  text-align: center;
+  padding: 60px 10%;
+  background-color: #fff3e6;
+}
+
+/* Kontak Section */
+.kontak-kami {
+  text-align: center;
+  background-color: orangered;
+  color: white;
+}
+.kontak-kami h2 {
+  margin-bottom: 15px;
+}
+.kontak-info p {
+  margin: 5px 5px 5px 5px;
+}

@@ -1,29 +1,181 @@
-.satu {
-  width: 200px;
-  height: 200px;
-  background-color: chartreuse;
+body {
+  font-family: Lucida Sans;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.dua {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(142, 186, 236);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+
+/* Navigation Bar */
+.navbar {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
-.tiga {
-  width: 50px;
-  height: 50px;
-  background-color: rgb(204, 228, 202);
-  margin: 10px 20px 40px 40px;
+
+.navbar .logo img {
+  padding: 5px;
+  width: 35px;
+  height: 35px;
 }
-.empat {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(204, 228, 202);
-  margin-top: 50px;
+
+.navbar ul {
+  display: flex;
+  gap: 50px;
 }
-div {
+
+.navbar li {
   display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 30px;
+  color: antiquewhite;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+/* Jumbotron */
+
+.hero {
+  background: url("background.jpg") no-repeat center;
+  background-size: cover;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .hero-text {
+  margin-top: 180px;
+  margin-left: 180px;
+}
+
+.hero .hero-text h1 {
+  font-size: 45px;
+  color: antiquewhite;
+  margin-bottom: 10px;
+}
+
+.hero .hero-text p {
+  margin-bottom: 25px;
+  font-size: 150%;
+  color: white;
+}
+
+.hero-text .btn {
+  background-color: black;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.hero .foto {
+  margin-top: 100px;
+  margin-right: 180px;
+}
+
+/* Main-Section */
+
+span {
+  background-color: grey;
+  display: flex;
+  height: 70px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+  background: url("background.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* susun dari atas ke bawah: judul → konten */
+  align-items: center;
+  padding: 35px 10%;
+}
+
+/* Judul di tengah atas */
+.about-section h1 {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  gap: 50px; /* jarak antara foto dan teks */
+}
+
+/* Foto di kiri */
+.about-foto img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+/* Bagian teks di kanan */
+.about-text {
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.about-text h1 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 35px;
+  line-height: 1.6;
+  font-size: large;
+  text-align: justify;
+}
+
+.about-text .btn {
+  background-color: black;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.about-text a:hover {
+  color: grey;
+}
+
+/* Responsif di layar kecil */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    align-items: center;
+  }
+
+  .about-text h1 {
+    font-size: 24px;
+  }
+
+  .about-foto img {
+    width: 250px;
+  }
 }
